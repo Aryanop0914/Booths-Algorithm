@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+body{
+    background-color: rgb(40, 40, 40);
+    font-family: 'Tilt Neon', cursive;
+    scroll-behavior: smooth;
+}
+
+.header{
+    color: #fff;
+    margin-left: 40%;
+}
+
+.container{
+    font-size: 16px;
+    width: 90vw;
+    max-width: 37.5em;
+    padding: 3em 1.8em;
+    background-color: #1e293b;
+    margin:5% 27%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.values-container1{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 1.2em;
+}
+
+.values-container1 input{
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    color: #fff;
+    padding: 0.7em;
+}
+
+.values-container2{
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    gap: 1.2em;
+}
+
+.values-container2 input{
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    color: #fff;
+    padding: 0.7em;
+}
+
+.values-container2 button{
+    background-color: #ffb92a;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+}
+
+table ,th ,td{
+    margin-top:5vh;
+    /* border:#fff solid 1px; */
+    border-collapse: collapse;
+    border-radius: 4px;
+    text-align: center;
+
+    
+}
+th{
+    padding:10px 33px;
+}
+
+td{
+    padding:10px 20px;
+}
+
+
+#result{
+    color: #fff;
+}
