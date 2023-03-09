@@ -6,7 +6,7 @@ const myvalues = () =>{
     let si=Number.parseInt(br)*Number.parseInt(qr);
     console.log(br,qr,max_len);
 if(!br || !qr || !max_len){
-    alert("fill al the details");
+    alert("Fill all the details");
     return ;
 }else{
 
