@@ -73,6 +73,7 @@ body{
         background-color: #ffb92a;
         border: none;
         cursor: pointer;
+        color:#1e293b;
         font-size: 0.9em;
         outline: none;
         border-radius: 0.3em;
@@ -150,9 +151,7 @@ body{
 }
 .socials a i{
     font-size: 30px;
-    width: 20px;
-
-
+    width: 40px;
     transition: color .4s ease;
 
 }
