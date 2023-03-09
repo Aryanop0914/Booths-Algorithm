@@ -17,6 +17,7 @@ body{
     .header{
         color: #fff;
         margin:auto;
+        margin-top: 30px;
         text-align: center;
     
     }
@@ -31,6 +32,7 @@ body{
         width: 50vw;
         margin: auto;
         margin-top: 30px;
+        margin-bottom: 30px;
         padding-top: 40px;
     }
     .values-container1{
@@ -96,16 +98,17 @@ body{
 
 
 
-footer{
+.footer{
     position: relative;
     bottom: 0;
+    top:100px;
     left: 0;
     right: 0;
     background: #111;
     height: auto;
     width: 100vw;
-    margin-top: 20px;
     padding-top: 40px;
+    margin-bottom: 0px;
     color: #fff;
 }
 .footer-content{
