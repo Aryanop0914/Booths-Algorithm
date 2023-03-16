@@ -13,7 +13,7 @@ body{
 
 
     
-@media screen {
+@media screen{
     .header{
         color: #fff;
         margin:auto;
@@ -102,7 +102,7 @@ body{
 .footer{
     position: relative;
     bottom: 0;
-    top:100px;
+    top:33vh;
     left: 0;
     right: 0;
     background: #111;
