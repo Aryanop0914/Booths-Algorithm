@@ -161,7 +161,7 @@ const myvalues = () => {
       ans = Number.parseInt(ans, 2);
       console.log("Answer: ", ans);
       fresult.innerHTML = `<h3>Answer in Binary:  ${ans1}</h3>
-                            <h3>Answer : - ${ans}</h3>`;
+                            <h3>Answer : ${ans}</h3>`;
     }
   }
 
